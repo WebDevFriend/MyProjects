@@ -1,0 +1,550 @@
+@media screen and (max-width: 1199px){
+
+    .phone-number{
+        padding-top: 3px;
+        margin-left: 132px;
+    }
+    
+    h1 {
+    font-size: 4.267rem;
+    letter-spacing: 28px;
+    margin-left: -268px;
+
+    }
+    
+    h1 span{
+        font-size: 2.933rem;
+        letter-spacing: 11px;
+    }
+    
+    .phone-icon, .contacts__phone-icon{
+        margin: 12px 0px 12px 96px;
+    }
+    
+    .adv{
+        margin-top: 46px;
+    }
+    
+    .adv__item{
+        margin-top: 20px;
+    }
+    
+    .transport-services__title{
+        width: 610px;
+        margin: 90px auto 0 auto;
+    }
+    
+    .property__text{
+        width: 505px;
+    }
+    
+    .property__text_two{
+        width: 505px;
+    }
+    
+    .find-answer__btn_box{
+        margin-top: 70px;
+        padding-bottom: 85px;
+    }
+    
+    .reviews__info{
+        width: 415px;
+        margin-right: 43px;
+    }
+    
+    .reviews__text{
+        width: 388px;
+        margin-right: 70px;
+    }
+    
+    .right i{
+        margin-left: 695px;
+    }
+    
+    .left i{
+        margin-left: -100px;
+    }
+    
+    .radio-buttons{
+        margin-bottom: 60px;
+    }
+    
+    .amendment {
+        margin-right: 30px;
+    }
+
+/*<----------about------------------>*/
+    .box__wrapper{
+        margin: 0;
+        width: auto;
+    }
+    
+    /*<----------contacts------------------>*/
+    .wrapper__list{
+        float: none;
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .form__wrapper{
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .form__title{
+        padding-top: 40px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .ways-of-contact__item{
+        margin: 0 auto 90px auto !important;
+    }
+    
+    .ways-of-contact__item:nth-child(2){
+        margin-bottom: 70px !important;
+    }
+    
+    .img__box{
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .content__box{
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    
+    .box__wrapper{
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .phone-number{
+        margin-left: 172px;
+    }
+    
+    .phone-icon, .contacts__phone-icon{
+        margin: 12px 0px 12px 136px;
+    }
+    
+    .right i{
+        margin-left: 615px;
+    }
+    
+    .left i{
+        margin-left: -60px;
+    }
+    
+    .smaller__title{
+        font-size: 2.7rem;
+    }
+    
+    .reviews img {
+        top: 0;
+        left: 50%;
+        margin-left: -66px;
+    }
+    
+    .reviews__info{
+        width: 414px;
+        margin-right: 72px;
+    }
+    
+    .reviews__info span{
+        display: block;
+    }
+    
+    .name{
+        padding-top: 40px;
+        text-align: center;
+        width: 100%
+    }
+    
+    .link{
+        padding-top: 6px;
+    }
+    
+    .amendmentLink{
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .location{
+        width: 100% !important;
+        text-align: center;
+        padding-top: 5px;
+
+    }
+    
+    .reviews__text{
+        margin-right: 90px;
+        text-align: center;
+    }
+
+    /*<----------about------------------>*/
+    .title__text_about{
+        width: 590px;
+    }
+
+    .work-done__block p{
+        float: none;
+        width: auto;
+        text-align: center;
+    }
+    
+    .boss{
+        width: 453px;
+    }
+    
+    .boss__item{
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .boss__item:first-child{
+        margin-bottom: 30px;
+    }
+    
+    /*<----------move------------------>*/
+
+    .media-width{
+        width: 80%;
+        margin: 70px auto 0 auto;
+    }
+
+    .description__block{
+        width: 500px;
+    }
+    
+    .description{
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .house__img{
+        margin: 0 auto;
+        float: none;
+    }
+    
+    .description-of-house{
+        margin: 0 auto;
+        float: none;
+    }
+    
+    .package__img{
+        margin: 0 auto;
+        float: none;
+    }
+    
+    .description-of-package{
+        margin: 0 auto;
+        float: none; 
+    }
+    
+    /*<----------contacts------------------>*/
+    
+}
+
+@media screen and (max-width: 767px){
+    h1{
+        font-size: 3.133rem;
+        letter-spacing: 25px;
+        margin-left: -212px;
+    }
+    
+    h1 span{
+        font-size: 2.2rem;
+        letter-spacing: 7px;
+    }
+    
+    .transport-services__title{
+        width: 510px;
+    }
+    
+    .property__tetle{
+        width: 378px;
+        margin: 0 auto;
+    }
+    
+    .property__text{
+        width: 370px;
+    }
+    
+    .property__text_two{
+        width: 374px;
+    }
+    
+    .reviews img {
+        top: 0;
+        left: 50%;
+        margin-left: -66px;
+    }
+    
+    .reviews__info{
+        width: 414px;
+        margin-right: 42px;
+    }
+    
+    .reviews__info span{
+        margin-right: 0;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .name{
+        padding-top: 40px;
+    }
+    
+    .link{
+        padding-top: 6px;
+    }
+
+    .location{
+        padding-top: 5px;
+
+    }
+    
+    .reviews__text{
+        margin-right: 56px;
+        text-align: center;
+    }
+    
+    .angle{
+        display: none;
+    }
+    
+    /*<----------about------------------>*/
+    .title__text_about{
+        width: 425px;
+    }
+    
+    .work-done__block{
+        width: 580px;
+    }
+    
+    /*<----------move------------------>*/
+    .media-width{
+        width: 90%;
+        margin: 70px auto 0 auto;
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 575px){
+    h1{
+        font-size: 3rem;
+        letter-spacing: 20px;
+        margin-left: -189px;
+    }
+    
+    h2{
+        font-size: 2rem;
+    }
+    
+    #second{
+        background: #2b4458;
+    }
+    
+    .transport-services__title{
+        width: 338px;
+    }
+    
+    .wapper__imgs{
+        display: none;
+    }
+    
+    .property__tetle{
+        width: 360px;
+        padding-top: 30px;
+    }
+    
+    .property__text{
+        width: 340px;
+    }
+    
+    .property__text_two{
+        width: 340px;
+    }
+    
+    .property__block_one{
+        margin-top: 60px;
+    }
+    
+    #fourth{
+        display: none;
+    }
+    
+    .smaller__title{
+        font-size: 2.3rem;
+    }
+    
+    .rights{
+        display: none;
+    }
+    /*<----------about------------------>*/
+    .title__text_about{
+        width: 360px;
+    }
+    
+    .work-done__block{
+        width: 410px;
+    }
+    
+    .boss{
+        width: 399px;
+    }
+    
+    .boss__item{
+        width: 365px;
+    }
+    
+    .boss__text{
+        width: 330px !important;
+        padding-bottom: 15px;
+    }
+    /*<----------move------------------>*/
+    .contacts__title{
+        font-size: 2rem;
+    }
+    
+    .description__block{
+        width: 400px;
+    }    
+}
+
+@media screen and (max-height: 575px){
+    h1{
+        margin-top: -3%;
+    }
+    .arrow{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 399px){
+    .bars{
+        /*display: none;*/
+    }
+
+    .arrow{
+        display: block;
+    }
+    
+    h1{
+        font-size: 2.5rem;
+        letter-spacing: 11px;
+        margin-left: -139px;
+        margin-top: -100px;
+    }
+    
+    h1 span{
+        font-size: 2rem;
+        letter-spacing: 5px;
+    }
+    
+    h2{
+        font-size: 1.5rem;
+    }
+    
+    .adv__title{
+        font-size: 1rem;
+    }
+    
+    .advy__text{
+        font-size: 1rem;
+        width: 212px;
+    }
+    
+    .transport-services__title{
+        width: 253px;
+    }
+    
+    .property__tetle{
+        font-size: 1rem;
+        width: 250px;
+    }
+    
+    .property__text{
+        width: 228px;
+    }
+    
+    .property__text_two{
+        width: 228px;
+    }
+    
+    .smaller__title{
+        font-size: 2rem;
+    }
+    
+    .consultation__text{
+        font-size: 1.2rem;
+    }
+    
+    /*<----------about------------------>*/
+    .contacts__title{
+        font-size: 1.7rem;
+        letter-spacing: 5px;
+    }
+    
+    .contacts__arrow{
+        margin-top: 95px;
+    }
+    
+    .title__text_about{
+        width: 228px;
+    }
+    
+    .work-done__block{
+        width: 278px;
+    }
+    
+    .boss{
+        width: 278px;
+    }
+    
+    .boss__item{
+        width: 250px;
+        height: auto;
+    }
+    
+    .boss__text{
+        width: 211px !important;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    /*<----------move------------------>*/
+
+    .description__block{
+        width: 100%;
+    }
+
+    .description-of-house{
+        width: 85%;
+    }
+
+    .description-of-package{
+        width: 85%;
+    }
+
+    .house__img{
+        width: 80%;
+    }
+
+    .package__img{
+        width: 80%;
+    }
+/*<----------contacts------------------>*/
+    .form__wrapper{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+
+}

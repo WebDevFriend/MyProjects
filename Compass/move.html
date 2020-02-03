@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>COMPASS</title>
+    
+	<link rel="shortcut icon" href="img/compass_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/fonts.css">
+</head>
+<body>
+    <div class="contacts__header">
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-xl-2 col-md-4 col-sm-5 col-5">
+                        <img src="img/logo.png" alt="COMPASS" class="logo">
+                    </div>
+                    <div class="col-xl-6 d-none d-md-none d-sm-none d-xl-block">
+                        <nav>
+                            <ul class="menu clearfix">
+                                <li class="menu__item">
+                                    <a href="index.html">
+                                        Главная
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="about.html">
+                                        О компании
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#">
+                                        Недвижимость и переезд
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="contacts.html">
+                                        Контакты
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6 offset-lg-4 offset-md-1 offset-xl-1
+                       d-none d-xl-block d-lg-block d-md-block">
+                        <div class="contacts__phone clearfix">
+                           <a href="#formModal" data-toggle="modal">
+                               <img src="img/phone-icon.png" alt="phone" class="contacts__phone-icon">
+                           </a>
+                            <div class="contacts__phone-number">
+                                +7 (495) 12-321-345
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-xl-none col-lg-1 offset-lg-0 col-md-1 offset-md-0 col-sm-2 offset-sm-5 col-2 offset-5">
+                            <div class="bars">
+                                <i class="fa fa-bars"></i>
+                            </div>
+                            <ul id="menu" class="burger">
+                                <li><div><a class="mouk" href="index.html">Главная</a></div></li>
+                                <li><div><a class="mouk" href="about.html">О компании</a></div></li>
+                                <li><div><a class="mouk" href="#">Недвижимость и переезд</a></div></li>
+                                <li><div><a class="mouk" href="contacts.html">Контакты</a></div></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+           <h2 class="contacts__title white media-width wow fadeIn">Недвижимость и переезд</h2>
+            <div class="contacts__arrow">
+                   <i class="fa fa-angle-down"></i>
+            </div>
+    </div>
+    <section id="box">
+        <div class="box__wrapper wow fadeInUp clearfix">
+        <p class="title__text">
+            После того, как решены юридические вопросы с видом на жительство в Болгарии, главной задачей становится<br><span class="title__text_bolder">найти новый дом или квартиру и организовать перевоз вещей</span>
+        </p>
+        <div class="description__block clearfix">
+            <div class="description clearfix">
+                <img src="img/house.png" alt="House" class="house__img">
+                <p class="description-of-house">
+                    Мы подберем лучшие варианты для Вашей новой жизни и подходящие по ценовой категории - будь то квартира-студия для молодой пары, или роскошный дом на побережье для большой семьи.
+                </p>
+            </div>
+            <div class="description clearfix">
+                <img src="img/Package.png" alt="Package" class="package__img">
+                <p class="description-of-package">
+                    При переезде в другую страну всегда возникает вопрос - как перевозить все свои вещи? Мы готовы Вам помочь в перевозке личных вещей из РФ в Болгарию. Большой опыт в перевозке вещей поможет избежать лишних затрат и выбрать только надежные и аккуратные транспортные компании, что гарантирует сохранность Вашего имущества.
+                </p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="consultation__section">
+        <div class="container">
+           <div class="row">
+               <div class="col-md-12">
+                    <h2 class="white wow fadeIn">
+                        Есть вопросы?
+                    </h2>
+                    <p class="consultation__text_move wow fadeIn">
+                        Закажите консультацию
+                    </p>
+                    <div class="consultation__circle">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 offset-xl-4 col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-sm-8 offset-sm-2">
+                    <div class="form">
+                        <form action="#" method="post" class="order-consultation">
+						
+							<!-- Hidden Required Fields -->
+                                <input type="hidden" name="project_name" value="COMPASS">
+                                <input type="hidden" name="admin_email" value="korney4uk4@gmail.com">
+                                <input type="hidden" name="form_subject" value="Заявка с верхней формы">
+		                        <!-- END Hidden Required Fields -->
+						
+                            <input type="text" name="name" class="order__input wow fadeInLeft" placeholder="Имя" required>
+                            <input type="email" name="E-mail" class="order__input wow fadeInRight" placeholder="E-mail" required>
+                            <input type="tel" name="Телефон" class="order__input wow fadeInLeft" id="phone6" placeholder="Телефон" required>
+                            <button class="order__btn wow fadeInUp" type="submit">Заказать консультацию</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-2 col-md-3 col-sm-5 col-12">
+                    <img src="img/logo-footer.png" alt="COMPASS" class="footer__logo">
+                </div>
+                <div class="col-xl-3 col-md-4 offset-md-1 col-sm-5 offset-sm-2 col-12">
+                    <p class="rights">
+                        2018 / Все права защищены 
+                    </p>
+                </div>
+                <div class="col-md-3 d-md-block d-sm-none d-none">
+                    <p class="confidentiality">
+                        <a href="#confidentialityModal" data-toggle="modal">Политика конфиденциальности</a> 
+                    </p>
+                </div>
+                <div class="col-xl-3 d-none d-xl-block">
+                    <div class="contacts__phone clearfix">
+                       <a href="#formModal" data-toggle="modal">
+                           <img src="img/Phone-footer-icon.png" alt="phone" class="contacts__phone-icon">
+                       </a>
+                        <div class="contacts__phone-number">
+                            +7 (495) 12-321-345
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- модальное окно форма отправки -->
+    <div class="modal fade animated fadeInDown" id="formModal" tabindex="-1" role="dialog" aria-labelledby="my-modal-title" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                        <div class="modal-header">
+                                <h5 class="modal-title upper">Есть вопросы?</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                    <div class="modal-form__wrapper">
+                            <p class="form__text white">
+                                Оставьте заявку и мы свяжемся с вами <br> в течение 20 минут.
+                            </p>
+                            <form action="#" method="post" class="order-contacts">
+							
+								<!-- Hidden Required Fields -->
+                                <input type="hidden" name="project_name" value="COMPASS">
+                                <input type="hidden" name="admin_email" value="korney4uk4@gmail.com">
+                                <input type="hidden" name="form_subject" value="Заявка с верхней формы">
+		                        <!-- END Hidden Required Fields -->
+							
+                                <input type="text" name="name" class="contacts__input" placeholder="Имя" required>
+                                <input type="tel" name="Телефон" class="contacts__input" id="phone3" placeholder="Телефон" required>
+                                <button class="contacts__btn" type="submit">Заказать консультацию</button>
+                            </form>
+                        </div>
+                </div>
+            </div>
+        </div>
+         <!-- ................. -->
+
+        <!-- модальное окно "Политика конфиденциальности" -->
+        <div class="modal fade animated fadeInUp" id="confidentialityModal" tabindex="-1" role="dialog" aria-labelledby="confidentialityModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Политика конфиденциальности</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+					Данное соглашение об обработке персональных данных разработано в соответствии с законодательством Украины и Российской Федерации. Все лица заполнившие сведения составляющие персональные данные на данном сайте, а также разместившие иную информацию обозначенными действиями подтверждают свое согласие на обработку персональных данных и их передачу оператору обработки персональных данных. Под персональными данными Гражданина понимается нижеуказанная информация: Имя, адрес электронной почты, номер мобильного телефона. Граждане направляют свои персональные данные оператору в целях предоставления последним услуги по созданию сайта. Гражданин, принимая настоящее Соглашение, выражают свою заинтересованность и полное согласие, что обработка их персональных данных может включать в себя следующие действия: сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, уничтожение. Гражданин гарантирует: информация, им предоставленная, является полной, точной и достоверной; при предоставлении информации не нарушается действующее законодательство Украины и Российской Федерации, законные права и интересы третьих лиц; вся предоставленная информация заполнена Гражданина в отношении себя лично.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        <!-- ................. -->
+    
+     <script src="js/jquery-3.3.1.min.js"></script>
+     <script src="js/jquery.maskedinput.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+	 <script src="slick/slick.min.js"></script>
+     <script src="js/jquery-ui.min.js"></script>
+     <script src="js/wow.min.js"></script>
+     <script src="https://use.fontawesome.com/104701f671.js"></script>
+     <script src="js/main.js"></script>
+</body>
+</html>

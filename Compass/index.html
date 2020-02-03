@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>COMPASS</title>
+	
+	<link rel="shortcut icon" href="img/compass_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/fonts.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-xl-2 col-md-4 col-sm-5 col-5">
+                        <img src="img/logo.png" alt="COMPASS" class="logo">
+                    </div>
+                    <div class="col-xl-6 d-none d-md-none d-sm-none d-xl-block">
+                        <nav>
+                            <ul class="menu clearfix">
+                                <li class="menu__item">
+                                    <a href="#">
+                                        Главная
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="about.html">
+                                        О компании
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="move.html">
+                                        Недвижимость и переезд
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="contacts.html">
+                                        Контакты
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6 offset-lg-4 offset-md-1 offset-xl-1
+                       d-none d-xl-block d-lg-block d-md-block">
+                        <div class="phone clearfix">
+                           <a href="#formModal" data-toggle="modal">
+                               <img src="img/phone-icon.png" alt="phone" class="phone-icon">
+                           </a>
+                            <div class="phone-number">
+                                +7 (495) 12-321-345<br>
+                                +7 (495) 12-321-345
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-xl-none col-lg-1 offset-lg-0 col-md-1 offset-md-0 col-sm-2 offset-sm-5 col-2 offset-5">
+                            <div class="bars">
+                                <i class="fa fa-bars"></i>
+                            </div>
+                            <ul id="menu" class="burger">
+                                <li><div><a class="mouk" href="#">Главная</a></div></li>
+                                <li><div><a class="mouk" href="about.html">О компании</a></div></li>
+                                <li><div><a class="mouk" href="move.html">Недвижимость и переезд</a></div></li>
+                                <li><div><a class="mouk" href="contacts.html">Контакты</a></div></li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+           <h1 class="animated fadeIn">Болгария<br><span>ждет вас</span></h1>
+            <div class="arrow">
+               <a  href="#relocation">
+                   <i class="fa fa-angle-down"></i>
+               </a>
+            </div>
+    </header>
+    <section id="first">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="black wow fadeIn">
+                        Наши преимущества
+                    </h2>
+                </div>
+            </div>
+            <ul class="advantages">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <li class="advantages__item wow fadeInLeft">
+                            <img src="img/helping-hand.png" alt="img" class="advantages__img">
+                            <h3 class="advantages__title pseudo">Надежность</h3>
+                            <p class="advy__text">
+                                Мы всегда придем к вам на помощь в решении самых неоднозначных вопросов
+                            </p>
+                        </li>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <li class="advantages__item wow fadeInUp">
+                            <img src="img/reliability.png" alt="img" class="advantages__img">
+                            <h3 class="advantages__title pseudo">Достоверность</h3>
+                            <p class="advy__text">
+                                Достоверность - главный принцип нашей работы. Мы знаем все тонкости переезда в Болгарию и оформления соответствующих документов
+                            </p>
+                        </li>
+                    </div>
+                    <div class="col-xl-4">
+                        <li class="advantages__item wow fadeInRight">
+                            <img src="img/competence.png" alt="img" class="advantages__img">
+                            <h3 class="advantages__title pseudo">Компетентность</h3>
+                            <p class="advy__text">
+                                Наши специалисты с большим опытом работы помогут разобраться во всех юридических тонкостях переезда на ПМЖ в Болгарию
+                            </p>
+                        </li>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <section id="second">
+       <a name="relocation"></a><!--Якорь-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="wow fadeIn">
+                        Переезд в Болгарию
+                    </h2>
+                    <p class="citation wow fadeIn">
+                        «Если Вам не нравится то место, где вы находитесь -<br> 
+                        смените его, Вы же не дерево»<br><span>Джим Рон</span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12">
+                    <div class="relocation__box wow fadeInLeft">
+                    Пришло время и перед Вами стоит вопрос<br><span>Как переехать в Болгарию на ВНЖ или ПМЖ?</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="relocation__title wow fadeIn">
+                        Мы знаем ответ
+                    </h2>
+                    <p class="relocation__text wow fadeIn">
+                        Подберем для Вас оптимальный вариант и предложим лучшие условия!
+                    </p>
+                    <div class="relocation__box_btn wow fadeIn">
+                        <a href="#formModal" class="relocation__btn button" data-toggle="modal">
+                            Узнать больше
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="third">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <h2 class="transport-services__title black wow fadeIn">
+                        Недвижимость и транспортные услуги
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-12">
+                  <div class="wrapper wow fadeInRight">
+                       <div class="wapper__imgs">
+                            <img src="img/property_left.png" alt="property" class="property__img_left">
+                            <img src="img/property_center.png" alt="property" class="property__img_center">
+                            <img src="img/property_right.png" alt="property" class="property__img_right">
+                       </div>
+                        <div class="property__blocks">
+                             <div class="property__block_one">
+                                <h3 class="property__tetle">
+                                        Мечтаете о доме на Солнечном берегу?
+                                 </h3>
+                                <p class="property__text">
+                                   Или хотите выгодно инвестировать в  заграничную недвижимость? В любом случае - подходящий вариант уже ждет Вас! Большой выбор объектов жилой и коммерческой недвижимости и профессиональный сервис позволит провести сделку с удовольствием и получить нужный результат
+                                </p>
+                            </div>
+                            <div class="property__block_two">
+                               <div class="circle__box">
+                                   <i class="fa fa-life-ring"></i>
+                               </div>
+                                <p class="property__text_two">
+                                   Если Ваши чемоданы уже собраны и Вы готовы к переезду, рады предложить Вам транспортные услуги по перевозке личный вещей в Болгарию. Для успешного размещения на новом месте жительства мы поможем перевести Ваши вещи в сохранности
+                                </p>
+                            </div>
+                       </div>
+                   </div>
+                </div>
+            </div>
+                <div class="find-answer__btn_box wow fadeIn">
+                    <a href="#formModal" class="find-answer__btn button" data-toggle="modal">
+                        Узнать больше
+                    </a>
+                </div>
+            </div>
+    </section>
+    <section id="fourth">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="smaller__title black wow fadeIn">
+                        Отзывы наших клиентов
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                    <div class="sl ">
+                        <div class="reviews wow rotateInDownRight">
+                          <img src="img/diana.png" alt="Diana">
+                           <p class="reviews__info">
+                               <span class="name amendmentName">
+                                    Диана Апасова
+                                </span>
+                                <a class="link amendmentLink widthLinkApasova marginLinkApasova">
+                                    vk.com/apasova
+                                </a>
+                                <span class="location">
+                                    Москва <i class="fa fa-arrow-right"></i> Варна
+                                </span>
+                           </p>
+                            <p class="reviews__text">
+                                Сделали все документы четко в оговоренный срок, никаких задержек. Не пришлось что-то досылать или переделывать. Сами заполнили все формы и прислали образцы текстов для доверенностей.
+                            </p>
+                        </div>
+                        <div class="reviews">
+                          <img src="img/Vitalik.png" alt="Vitalik">
+                           <p class="reviews__info">
+                               <span class="name">
+                                    Виталий Коваленко
+                                </span>
+                                <a class="link amendmentLink widthLinkKovalenko marginLinkKovalenko">
+                                    vk.com/kovalenko
+                                </a>
+                                <span class="location">
+                                    ВЛАДИВОСТОК <i class="fa fa-arrow-right"></i> Варна
+                                </span>
+                           </p>
+                            <p class="reviews__text">
+                                Оказывали постоянную поддержку и консультации на всех этапах. В процессе оформления документов возникли разногласия с нотариусом в РФ, компания помогла составить доверенности нужной формы. В консульстве все документы приняли без проблем. 
+                            </p>
+                        </div>
+                        <div class="reviews">
+                            <img src="img/Ivan.png" alt="Ivan">
+                             <p class="reviews__info">
+                                 <span class="name amendmentName">
+                                      Иван Каминский
+                                  </span>
+                                  <a class="link amendmentLink widthLinkKaminskiy marginLinkKaminskiy">
+                                      vk.com/Kaminskiy
+                                  </a>
+                                  <span class="location">
+                                      Москва <i class="fa fa-arrow-right"></i> София
+                                  </span>
+                             </p>
+                              <p class="reviews__text">
+                                  Долго выбирал компанию для оказания услуги. Выбрал эту. Они вообще оказались единственные, кто внятно рассказал, что и как надо делать и чего ожидать. Не пытаются втюхать услугу, рассматривают ситуацию индивидуально. Цена самая адекватная, никаких "вдруг возникло", сразу сказали какие затраты могут быть, а каких можно избежать
+                              </p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="radio-buttons clearfix">
+                <div class="fake-button"></div>
+                <div class="fake-button"></div>
+                <div class="fake-button"></div>
+            </div>
+        </div>
+    </section>
+    <section id="fifth">
+        <div class="container">
+           <div class="row">
+               <div class="col-md-12">
+                    <h2 class="smaller__title white wow fadeIn">
+                        Есть вопросы<br>по переезду в болгарию?
+                    </h2>
+                    <p class="consultation__text wow fadeIn">
+                        Мы проконсультируем<br>Вас бесплатно!
+                    </p>
+                    <div class="consultation__circle">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 offset-xl-4 col-lg-4 offset-lg-4 col-md-6 offset-md-3">
+                    <div class="form">
+                        <form action="js/submit.php" method="post" class="order-consultation">
+						
+							<!-- Hidden Required Fields -->
+                                <input type="hidden" name="project_name" value="COMPASS">
+                                <input type="hidden" name="admin_email" value="korney4uk4@gmail.com">
+                                <input type="hidden" name="form_subject" value="Заявка с верхней формы">
+							<!-- END Hidden Required Fields -->
+						
+                            <input type="text" name="Имя" class="order__input wow fadeInLeft" placeholder="Имя" required>
+                            <input type="email" name="E-mail" class="order__input wow fadeInRight" placeholder="E-mail" required>
+                            <input type="tel" name="Телефон" class="order__input wow fadeInLeft" id="phone5" placeholder="Телефон" required>
+                            <button class="order__btn wow fadeInUp" type="submit">Заказать консультацию</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+               <div class="d-xl-none col-lg-1 d-md-none">
+                   
+               </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-5 col-12">
+                    <img src="img/logo-footer.png" alt="COMPASS" class="footer__logo">
+                </div>
+                <div class="col-xl-3 offset-xl-1 col-lg-3 offset-lg-1 col-md-4 offset-md-2 col-sm-5 offset-sm-2 col-12">
+                    <p class="rights">
+                        2018 / Все права защищены 
+                    </p>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 d-none d-sm-none d-md-block d-lg-block d-xl-block">
+                        <p class="confidentiality">
+                            <a href="#confidentialityModal" data-toggle="modal">Политика конфиденциальности</a> 
+                        </p>
+                </div>
+                <div class="col-xl-3 d-none d-xl-block text-right">
+                    <div class="footer__phone clearfix">
+                       <a href="#formModal" data-toggle="modal">
+                           <img src="img/Phone-footer-icon.png" alt="phone" class="phone-icon">
+                       </a>
+                        <div class="phone-number">
+                            +7 (495) 12-321-345<br>
+                            +7 (495) 12-321-345
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- модальное окно форма отправки -->
+    <div class="modal fade animated fadeInDown" id="formModal" tabindex="-1" role="dialog" aria-labelledby="my-modal-title" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                        <div class="modal-header">
+                                <h5 class="modal-title upper">Есть вопросы?</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                    <div class="modal-form__wrapper">
+                            <p class="form__text white">
+                                Оставьте заявку и мы свяжемся с вами <br> в течение 20 минут.
+                            </p>
+                            <form action="#" method="post" class="order-contacts">
+                              
+                               <!-- Hidden Required Fields -->
+                                <input type="hidden" name="project_name" value="COMPASS">
+                                <input type="hidden" name="admin_email" value="korney4uk4@gmail.com">
+                                <input type="hidden" name="form_subject" value="Заявка с верхней формы">
+		                        <!-- END Hidden Required Fields -->
+                               
+                                <input type="text" name="Имя" class="contacts__input" placeholder="Имя" required>
+                                <input type="tel" name="Телефон" class="contacts__input" id="phone" placeholder="Телефон" required>
+                                <button class="contacts__btn" type="submit">Заказать консультацию</button>
+                            </form>
+                        </div>
+                </div>
+            </div>
+        </div>
+         <!-- ................. -->
+
+        <!-- модальное окно "Политика конфиденциальности" -->
+        <div class="modal fade animated fadeInUp" id="confidentialityModal" tabindex="-1" role="dialog" aria-labelledby="confidentialityModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Политика конфиденциальности</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+					Данное соглашение об обработке персональных данных разработано в соответствии с законодательством Украины и Российской Федерации. Все лица заполнившие сведения составляющие персональные данные на данном сайте, а также разместившие иную информацию обозначенными действиями подтверждают свое согласие на обработку персональных данных и их передачу оператору обработки персональных данных. Под персональными данными Гражданина понимается нижеуказанная информация: Имя, адрес электронной почты, номер мобильного телефона. Граждане направляют свои персональные данные оператору в целях предоставления последним услуги по созданию сайта. Гражданин, принимая настоящее Соглашение, выражают свою заинтересованность и полное согласие, что обработка их персональных данных может включать в себя следующие действия: сбор, систематизацию, накопление, хранение, уточнение (обновление, изменение), использование, уничтожение. Гражданин гарантирует: информация, им предоставленная, является полной, точной и достоверной; при предоставлении информации не нарушается действующее законодательство Украины и Российской Федерации, законные права и интересы третьих лиц; вся предоставленная информация заполнена Гражданина в отношении себя лично.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        <!-- ................. -->
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="https://use.fontawesome.com/104701f671.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

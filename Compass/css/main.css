@@ -1,0 +1,1063 @@
+/* Спецификация */
+html {
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Museo Sans Cyrl-900', Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+.animated{
+    opacity: 0;
+}
+
+.wow{
+    opacity: 0;
+}
+
+ul, li, p{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+a, a:hover, a:active, a:focus,
+button, input, button:hover, button:active, button:focus,
+input:focus, input:active {
+	text-decoration: none;
+    outline: none;
+    -moz-transition: all 0.3s ease;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease;
+}
+
+a:hover{
+    color: #23aae2;
+}
+
+h1, h2, h3{
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2{
+    font-size: 2.8rem;
+    letter-spacing: 4px;
+    margin-top: 90px;
+}
+
+.white{
+    color: #fff;
+}
+
+.black{
+    color: #000;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+/*Первый экран*/
+
+header{
+    background: #1a445d url(../img/bg-first.png) no-repeat center center / cover;
+    height: 100vh;    
+}
+
+.header{
+    background: rgba(0,0,0,0.25);
+}
+
+.menu{
+    padding-top: 34px;
+}
+
+.menu__item{
+    text-transform: uppercase;
+    font-size: 0.733rem;
+    letter-spacing: 1px;
+    float: left;
+}
+
+.menu__item a{
+    color: #fff;
+    border-radius: 5px;
+    padding: 9px 11px;
+}
+
+.menu__item a:hover{
+    background: rgba(255,255,255,0.14);
+}
+
+.phone{
+    color: #fff;
+    font-size: 1.067rem;
+    padding-top: 16px;
+}
+
+.phone-icon{
+    float: left;
+    margin: 12px 0px 12px 65px;
+}
+
+.phone-number{
+    line-height: 1.3;
+    padding-top: 6px;
+    margin-left: 99px;
+    width: 155px;
+}
+
+.bars{
+    font-size: 32px;
+    width: 32px;
+    color: white;
+    margin: 0 auto;
+    line-height: 77px;
+    cursor: pointer;
+}
+
+h1{
+    color: #fff;
+    font-size: 6rem;
+    letter-spacing: 45px;
+    position: absolute;
+    top: 50%;
+    margin-top: -119px;
+    left: 50%;
+    margin-left: -419px;
+}
+
+h1 span{
+    font-size: 3.4rem;
+    letter-spacing: 12px;
+}
+
+.arrow{
+    border: 1px dashed #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    margin-left: -20px;
+}
+
+.fa-angle-down:before{
+    color: #fff;
+    font-size: 2.133rem;
+    line-height: 40px;
+    margin-left: 9px;
+}
+
+/*Второй экран*/
+
+.advantages{
+    margin-top: 66px;
+    margin-bottom: 97px;
+}
+
+.advantages__item{
+    background: #f4f4f4;
+    height: 357px;
+    box-shadow: 2px 3px 8px rgba(0,0,0,0.15);
+}
+
+.advantages__img{
+    margin: 0px auto;
+    padding-top: 55px;
+    padding-bottom: 27px;
+    display: block;
+}
+
+.advantages__title{
+    color: #000;
+    font-size: 1.333rem;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+.pseudo:after{
+    content: '';
+    display: block;
+    background: #c6c6c6;
+    width: 37px;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.advy__text{
+    font-family: 'Museo Sans Cyrl-300';
+    text-align: center;
+    width: 312px;
+    font-size: 1.133rem;
+    color: #545454;
+    margin: 0 auto;
+    line-height: 1.2;
+}
+
+/*Третий экран*/
+
+#second{
+    background: url(../img/relocation.png) no-repeat center center / cover;
+    color: #fff;
+}
+
+.citation{
+    font-family: 'Museo Sans Cyrl-100Italic';
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.citation span{
+    font-family: 'Museo Sans Cyrl-900';
+    font-size: 0.933rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.relocation__box{
+    border: 1px dashed #fff;
+    margin: 0 auto;
+    margin-top: 55px;
+    text-align: center;
+    font-family: 'Museo Sans Cyrl-100';
+    font-size: 1.267rem;
+    text-transform: uppercase;
+    padding: 57px 0;
+    position: relative;
+    letter-spacing: 0.12rem;
+}
+
+.relocation__box span{
+    font-family: 'Museo Sans Cyrl-900';
+    font-size: 1.533rem;
+    letter-spacing: 0.12rem;
+}
+
+.relocation__box:before{
+    content: '';
+    display: block;
+    background: url(../img/relocation-arrows-second.png) no-repeat center;
+    width: 32px;
+    height: 32px;
+    border: 1px dashed #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: -16px;
+    margin-top: -73px;
+}
+
+.relocation__box:after{
+    content: '';
+    display: block;
+    background: url(../img/relocation-arrows-second.png) no-repeat center;
+    width: 32px;
+    height: 32px;
+    border: 1px dashed #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: -16px;
+    margin-top: 42px;
+}
+
+.relocation__title{
+    margin-top: 70px;
+}
+
+.relocation__text{
+    font-family: 'Museo Sans Cyrl-100';
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+.relocation__box_btn{
+    margin: 0 auto;
+    width: 211px;
+    margin-top: 63px;
+    margin-bottom: 123px;
+}
+
+.relocation__btn{
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.button{
+    text-transform: uppercase;
+    border-radius: 4px;
+    letter-spacing: 0.1rem;
+    padding: 22px 30px;
+}
+
+.button:active {
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.3) inset;
+}
+
+.relocation__btn:hover{
+    border: 2px solid #fff;
+    color: #233d53;
+    background: #fff;
+}
+
+/*Четвертый экран*/
+
+#third{
+    background: url(../img/city.png) no-repeat center center / cover;
+}
+
+.wrapper{
+    position: relative;
+}
+
+.wapper__imgs img{
+    position: absolute;
+}
+
+.property__img_left{
+    z-index: 4;
+    left: 50%;
+    margin-left: -176px;
+    top: -68px;
+}
+
+.property__img_center{
+    left: 50%;
+    margin-left: -94px;
+    top: -130px;
+    z-index: 7;
+}
+
+.property__img_right{
+    z-index: 4;
+    left: 51%;
+    top: -60px;
+}
+
+.property__block_one{
+    background: #f4f4f4;
+    box-shadow: 2px 3px 8px rgba(0,0,0,0.15);
+    margin-top: 155px;
+    position: relative;
+    z-index: 5;
+}
+
+.property__tetle{
+    padding-top: 70px;
+    font-size: 1.333rem;
+}
+
+.property__text{
+    width: 670px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+    padding-bottom: 42px;
+    text-align: center;
+    font-family: 'Museo Sans Cyrl-300';
+    letter-spacing: 0.05rem;
+}
+
+.property__block_two{
+    background: #f4f4f4;
+    box-shadow: 2px 3px 8px rgba(0,0,0,0.15);
+    margin-top: 6px;
+    position: relative;
+}
+
+.property__text_two{
+    width: 709px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Museo Sans Cyrl-300';
+    letter-spacing: 0.05rem;
+    padding: 44px 0;
+}
+
+.circle__box{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #23aae2;
+    border-radius: 50%;
+    text-align: center;
+    left: 50%;
+    margin-left: -30px;
+    top: -33px;
+    z-index: 6;
+}
+
+.circle__box i{
+    position: absolute;
+    margin-left: -6.5px;
+    line-height: 60px;
+    font-size: 26px;
+    margin-left: -13px;
+    color: #fff;
+}
+
+.find-answer__btn_box{
+    margin: 0 auto;
+    width: 211px;
+    margin-top: 92px;
+    padding-bottom: 112px;
+}
+
+.find-answer__btn{
+    border: 2px solid #23aae2;
+    color: #23aae2;
+}
+
+.find-answer__btn:hover{
+    border: 2px solid #23aae2;
+    color: #fff;
+    background: #23aae2;
+}
+
+/*Пятый экран*/
+
+.reviews{
+    box-shadow: 0px 2px 1px rgba(0,0,0,0.10);
+    margin-top: 100px;
+    margin-bottom: 50px;
+    position: relative;
+    outline: none;
+}
+
+.reviews img{
+    position: absolute;
+    top: 50%;
+    margin-top: -66px;
+    margin-left: 10px;
+}
+
+.angle i {
+    position: absolute;
+    font-size: 45px;
+    color: #23aae2;
+    cursor: pointer;
+}
+
+.left i{
+    top: 56%;
+    margin-top: -22px;
+    margin-left: -130px
+}
+
+.right i{
+    top: 56%;
+    margin-top: -22px;
+    margin-left: 830px;
+}
+
+.reviews__info{
+    float: right;
+    margin-top: 44px;
+}
+
+.name{
+    text-transform: uppercase;
+    font-size: 1.067rem;
+    margin-right: 30px;
+}
+
+.amendmentName{
+    margin-right: 30px;
+}
+
+.link{
+    text-transform: uppercase;
+    color: #23aae2;
+    font-size: 0.8rem;
+    border-bottom: 2px solid #b5dcf3;
+    margin-right: 127px;
+    cursor: pointer;
+}
+
+.amendmentLink{
+    margin-right: 82px;
+}
+
+.widthLinkApasova{
+    width: 109px;
+}
+
+.widthLinkKovalenko{
+    width: 128px;
+}
+
+.marginLinkKovalenko{
+	margin-right: 31px;
+}
+
+
+.widthLinkKaminskiy{
+    width: 119px;
+}
+
+.marginLinkApasova{
+    margin-right: 125px;
+}
+
+.marginLinkKaminskiy{
+    margin-right: 97px;
+}
+
+.location{
+    font-family: 'Museo Sans Cyrl-300';
+    text-transform: uppercase;
+    color: #53b7e6;
+    font-size: 0.8rem;
+    margin-right: 44px;
+}
+
+.location i{
+    font-size: 8px;
+}
+
+.reviews__text{
+    font-family: 'Museo Sans Cyrl-100Italic';
+    width: 534px;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-right: 30px;
+}
+
+.radio-buttons{
+    margin: 0 auto;
+    width: 80px;
+    margin-bottom: 90px;
+}
+
+/*Шестой экран*/
+
+#fifth{
+    background: #11b2f5 url(../img/confusing-bg.png) no-repeat center center / cover;
+    color: #fff;
+}
+
+.consultation__text{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Museo Sans Cyrl-100';
+    font-size: 1.313rem;
+    margin-top: 26px;
+    letter-spacing: 4px;
+}
+
+.consultation__circle{
+    width: 30px;
+    height: 30px;
+    border: 1px dashed #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 33px;
+}
+
+.consultation__circle i{
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+input::placeholder{
+    color: #b7e5ff;
+    text-transform: uppercase;
+    font-size: 0.813rem;
+}
+
+input:hover::placeholder{
+    color: #fff;
+}
+
+input:hover, input:focus {
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.2);
+}
+
+.order__input{
+    width: 100%;
+    font-family: 'Museo Sans Cyrl-300';
+    font-size: 1rem;
+    border: 1px solid #fff;
+    padding: 23px 0 23px 34px;
+    margin-top: 10px;
+    border-radius: 3px;
+    background: #30c2ff;
+    color: #fff;
+    display: block;
+}
+
+.order__input:first-child{
+    margin-top: 30px;
+}
+
+.order__btn{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 85px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    background: none;
+    padding: 23px 0 23px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.order__btn:hover{
+    background: #fff;
+    color: #0fa1dd;
+}
+
+/*footer*/
+
+footer{
+    background: #23aae2;
+}
+
+.rights{
+    font-family: 'Museo Sans Cyrl-100';
+    font-size: 0.875rem;
+    color: #d4e6f2;
+    line-height: 90px
+}
+
+.confidentiality{
+    font-family: 'Museo Sans Cyrl-100';
+    font-size: 0.875rem;
+    color: #d4e6f2;
+    line-height: 24px;
+    width: 194px;
+    margin-top: 33px;
+    border-bottom: 1px dotted #d4e6f2;
+}
+
+.confidentiality a{
+    color: #d4e6f2;
+}
+
+.footer__logo{
+    padding: 16px 0;
+}
+
+.footer__phone{
+    color: #fff;
+    font-size: 1.067rem;
+    padding-top: 21px;
+}
+
+/*КОНТАКТЫ*/
+/*первый экран*/
+
+.contacts__header{
+    background: #1a445d url(../img/bg-first.png) no-repeat center 0;
+    height: 410px;
+}
+
+.contacts__phone{
+    color: #fff;
+    font-size: 1.067rem;
+    padding-top: 16px;
+}
+
+.contacts__phone-icon{
+    margin: 12px 0px 12px 65px;
+}
+
+.contacts__phone-number{
+    line-height: 25px;
+    padding-top: 10px;
+    float: right;
+    border-bottom: 1px dotted;
+}
+
+.contacts__title{
+    font-size: 3.4rem;
+    letter-spacing: 8px;
+    margin-top: 70px;
+}
+
+.contacts__arrow{
+    border: 1px dashed #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 38px;
+}
+
+/*второй экран*/
+
+.box__wrapper{
+    box-shadow: 2px 3px 8px rgba(0,0,0,0.15);
+    margin: -90px auto 85px auto;
+    background: #fff;
+    width: 1030px;
+}
+
+.title__text{
+    text-align: center;
+    font-family: 'Museo Sans Cyrl-100';
+    font-size: 1.133rem;
+    padding: 50px 0 58px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.description__block{
+    width: 885px;
+    margin: 0 auto;
+}
+
+.form__wrapper{
+    width: 389px;
+    height: 470px;
+    background: #11b2f5;
+    float: right;
+    border-radius: 3px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+}
+
+.modal-form__wrapper{
+    height: 350px;
+    background: #11b2f5;
+    float: right;
+    border-radius: 3px;
+}
+
+.wrapper__list{
+    width: 380px;
+    margin-left: 50px;
+    float: left;
+}
+
+.form__title{
+    font-size: 1.333rem;
+    letter-spacing: 2px;
+    line-height: 1;
+    margin-top: 40px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form__text{
+    font-family: 'Museo Sans Cyrl-100';
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.contacts__input{
+    width: 289px;
+    font-family: 'Museo Sans Cyrl-300';
+    font-size: 1rem;
+    border: 1px solid #fff;
+    padding: 15px 0 15px 34px;
+    margin: 5px auto 0 auto;    
+    border-radius: 3px;
+    background: #30c2ff;
+    color: #fff;
+    display: block;
+}
+
+.contacts__input:first-child{
+    margin-top: 30px;
+}
+
+.contacts__btn{
+    width: 289px;
+    margin: 10px auto 0 auto;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    background: none;
+    padding: 15px 0 15px 0;
+    text-transform: uppercase;
+    font-size: 0.867rem;
+    letter-spacing: 2px;
+    color: #fff;
+    display: block;
+}
+
+.contacts__btn:hover{
+    background: #fff;
+    color: #0fa1dd;
+}
+
+.ways-of-contact__item{
+    width: 285px;
+    height: 70px;
+    margin: 35px 80px 35px 80px
+}
+
+.ways-of-contact__item:first-child{
+    margin: 80px 80px 50px 80px;
+}
+
+.img__box{
+    width: 32px;
+    float: left;
+}
+
+.content__box{
+    float: left;
+    margin-left: 25px;
+}
+
+.content__box h4{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.ways-of-contact__content{
+    font-family: 'Museo Sans Cyrl-100';
+    font-size: 1.067;
+}
+
+/*НЕДВИЖИМОСТЬ И ПЕРЕЕЗД*/
+
+.title__text_bolder{
+    font-family: 'Museo Sans Cyrl-900';
+}
+
+.description{
+    margin-left: 70px;
+}
+
+.description:last-child{
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+
+.house__img{
+    float: left;
+}
+
+.description-of-house{
+    font-family: 'Museo Sans Cyrl-100';
+    font-size: 1.067;
+    width: 390px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.package__img{
+    margin-left: 76px;
+}
+
+.description-of-package{
+    font-family: 'Museo Sans Cyrl-100';
+    font-size: 1.067;
+    width: 387px;
+    float: left;
+    margin-top: 87px;
+}
+
+
+/*Закажите консультацию*/
+
+#consultation__section{
+    background: #11b2f5 url(../img/confusing-bg.png) no-repeat center center / cover;
+    color: #fff;
+}
+
+.consultation__text_move{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Museo Sans Cyrl-100';
+    font-size: 1.313rem;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+/*О КОМПАНИИ*/
+
+.title__text_about{
+    text-align: center;
+    font-family: 'Museo Sans Cyrl-100';
+    font-size: 1.2rem;
+    padding: 50px 0 58px 0;
+    width: 880px;
+    margin: 0 auto;
+}
+
+.work-done__block{
+    margin: 0 auto;
+    width: 732px;
+}
+
+.satisfied-customers{
+    font-size: 2.6rem;
+    color: #23aae2;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 29px;
+    width: 213px;
+    float: left;
+}
+
+.customers{
+    font-size: 1rem;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.get{
+    float: left;
+    font-size: 1.267rem;
+    color: #bdbdbd;
+    text-transform: uppercase;
+    font-family: 'Museo Sans Cyrl-100';
+    letter-spacing: 7px;
+    margin: 20px 48px 20px 48px;
+}
+
+.new-house{
+    float: left;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #23aae2;
+    letter-spacing: 4px;
+    line-height: 29px;
+    text-align: right;
+}
+
+.bulgaria{
+    color: #000;
+}
+
+.ready{
+    font-size: 1.533rem;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    background: #23aae2;
+    line-height: 75px;
+    letter-spacing: 3px;
+    margin-top: 54px;
+}
+
+.partners__title{
+    padding: 63px 0 54px 0;
+    letter-spacing: 3px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.boss__item{
+    background: #f4f4f4;
+    box-shadow: 2px 3px 8px rgba(0,0,0,0.15);
+    width: 429px;
+    float: left;
+    margin: 0 15px 0 15px;
+    height: 540px;
+}
+
+.boss{
+    padding-bottom: 69px;
+    margin: 0 auto;
+    width: 920px;
+}
+
+.boss__text{
+    font-family: 'Museo Sans Cyrl-300';
+    text-align: justify;
+    width: 367px;
+    font-size: 1.067rem;
+    color: #545454;
+    margin: 0 auto;
+    line-height: 1.4;
+}
+
+.boss__text:last-child{
+    width: 366px;
+}
+
+/*Стили для слайдера*/
+
+.fa-angle-right:before{
+    color: #a8daf0;
+}
+
+.fa-angle-right:hover:before{
+    color: #23aae2;
+}
+
+.fa-angle-left:before{
+    color: #a8daf0;
+}
+
+.fa-angle-left:hover:before{
+    color: #23aae2;
+}
+
+.slick-dots li button{
+    border: 1px dashed #23aae2;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+
+.slick-dots li button:before{
+    content: '';
+}
+
+.slick-dots li button:hover{
+    background: #a8daf0;
+}
+.slick-dots li.slick-active button{
+    background: #23aae2;
+}
+
+
+/* модальное окно Политика конфиденциальности */
+
+.modal-body{
+    background-color: #23aae2;
+    color: white;
+	letter-spacing: 1px;
+}
+
+.close:hover{
+	color: #d20b0b;
+}
+
+/* меню бургер */
+
+.ui-widget.ui-widget-content {
+    border: 1px solid #fff;
+    background-color: #005579;
+    color: #fff;
+    width: 210px;
+    position: absolute;
+    right: 34%;
+    display: none;
+    /* background: rgba(0, 0, 0, 0.25); */
+    z-index: 99;
+}
+
+
+
+.burger li div a{
+    color: #fff;
+    opacity: 0;
+}
+
+.menu-opened{
+    display: block !important;
+    opacity: 1 !important;
+}

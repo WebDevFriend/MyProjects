@@ -1,0 +1,249 @@
+@media screen and (max-width: 1199px){
+    .menu-part-left a, .menu-part-right a{
+        margin-right: 20px;
+    }
+    .menu-dropdown{
+        width: 190%;
+    }
+
+    .features-wrap{
+        padding-right: 30px;
+    }
+
+    .features-wrap-align {
+        padding-bottom: 5px;
+    }
+
+    .iPhone-feature__img {
+        width: 900px;
+        left: -206px;
+        -moz-transform: rotate(-22deg); /* Для Firefox */
+        -ms-transform: rotate(-22deg); /* Для IE */
+        -webkit-transform: rotate(-22deg); /* Для Safari, Chrome, iOS */
+        -o-transform: rotate(-22deg); /* Для Opera */
+        transform: rotate(22deg);
+
+    }
+
+    .slick-next{
+        right: -25%;
+    }
+
+    .slick-prev{
+        left: -25%;
+    }
+
+    .tariffs-item{
+        width: 49%;
+    }
+
+    .tariffs-item__btn{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .header-top-mobile{
+        display: block;
+    }
+
+    .header-top-mobile img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    #burger{
+        display: none;
+    }
+
+    .menu-part-left a, .menu-part-right a{
+        display: none;
+    }
+
+    .wrap{
+        justify-content: center;
+    }
+
+    .logo{
+        margin: 15px 0px 15px 0px;
+    }
+
+    .header-main{
+        margin-top: 90px;
+    }
+
+    .header-main p{
+        width: 628px;
+    }
+
+    .iPhone-feature__img{
+        -moz-transform: rotate(-22deg); /* Для Firefox */
+        -ms-transform: rotate(-22deg); /* Для IE */
+        -webkit-transform: rotate(-22deg); /* Для Safari, Chrome, iOS */
+        -o-transform: rotate(-22deg); /* Для Opera */
+        transform: rotate(22deg);
+        transform: scaleX(-1);
+        left: 394px;
+        top: -100px;
+    }
+
+    .desc{
+        width: 400px;
+    }
+
+    .map-feature__map{
+        width: 99%;
+    }
+
+    .slick-next{
+        right: -10%;
+    }
+
+    .slick-prev{
+        left: -10%;
+    }
+
+    .tariffs-list{
+        margin-top: 20px;
+    }
+
+    .plan{
+        text-align: center;
+    }
+
+    .plan-switch-btns{
+        margin: 20px auto 0px auto;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .header-main p{
+        width: 400px;
+    }
+
+    .iPhone-feature__img{
+        display: none;
+    }
+
+    .map-feature__map{
+        right: -266px;
+    }
+
+    .tariffs-list{
+        margin-left: 10%;
+    }
+
+    .tariffs-item{
+        width: 90%;
+    }
+
+    .tariffs-item:last-child{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    h1 {
+        font-size: 50px;
+    }
+
+    .header-main p{
+        width: 268px;
+        font-size: 18px;
+    }
+
+    .header-main__iphone{
+        width: 268px;
+    }
+
+    .desc{
+        width: auto;
+        font-size: 18px;
+    }
+
+    .map-feature__map{
+       display: none;
+    }
+
+    .subscribe-form button{
+        position: relative;
+        right: 0;
+        top: 10px;
+        margin: 0 auto;
+    }
+
+    .slider-header-item{
+        display: none !important;
+    }
+
+    .slider-main {
+        margin-bottom: 90px;
+        top:0;
+    }
+
+    slider-main-item{
+        z-index: 0;
+    }
+
+    .slick-next {
+        right: 0;
+        z-index: 5;
+    }
+
+    .slick-prev {
+        left: 0;
+        z-index: 5;
+    }
+}
+
+@media screen and (max-width: 399px){
+
+    header{
+        padding: 50px 10px 50px 10px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .header-main p{
+        width: 268px;
+        font-size: 16px;
+    }
+
+    .header-main__iphone{
+        width: 268px;
+    }
+
+    .nav-mobile{
+        width: 90%;
+    }
+
+    .desc{
+        font-size: 16px;
+    }
+
+    .first i{
+        display: none;
+    }
+
+    .second{
+        margin-left: 15px;
+    }
+
+    .tariffs-item__btn{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #map-feature{
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 330px){
+    .dropbox{
+        display: block;
+        margin-bottom: 20px;
+    }
+}

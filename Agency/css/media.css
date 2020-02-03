@@ -1,0 +1,299 @@
+@media screen and (max-width: 1199px){
+	.header__main{
+		margin-top: 70px;
+		padding-bottom: 70px;
+	}
+
+	.media_direction{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.video__content_wrap{
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	h1{
+		font-size: 48px;
+		text-align: center;
+	}
+
+	h2{
+		text-align: center;
+	}
+
+	.text__content_wrap p, .learnMore__block p{
+		width: 100%;
+		text-align: center;
+	}
+
+	.services{
+		margin-top: 80px;
+	}
+	
+	.learnMore__block h2{
+		font-size: 37px;
+	}
+
+	.servicesList__block{
+		margin-top: 60px;
+	}
+
+	.info_margin{
+		margin: 30px auto 25px auto;
+	}
+
+	.red-line{
+		margin: auto auto 65px auto;
+	}
+
+	.ourTeam__gallery{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	#ourTeam__bigImg_wrap{
+		margin: auto;
+	}
+
+	#ourTeam__gallery_wrap{
+		display: flex;
+		margin-left: 0;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	
+	.ourTeam__gallery_desc{
+		margin-bottom: 10px;
+	}
+
+	.ourTeam__gallery_desc p {
+		width: 80%;
+    	margin: 25px auto 35px auto;
+	}
+
+	.ourTeam__imgs-wrap{
+		/*display: flex;*/
+	}
+
+	.ourTeam__img_wrap{
+		margin-top: 12px
+	}
+
+	.info__text{
+		text-align: center;
+	}
+
+	.subscribe-form{
+		display: flex;
+	}
+
+	.getInTouch__contact-info {
+    	/*width: 400px;*/
+    	display: none;
+	}
+
+	.getInTouch__form{
+		margin: 0 auto 110px auto;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.menu li a{
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 960px){
+	h1{
+		font-size: 36px;
+		text-align: center;
+	}
+
+	.learnMore__block h2{
+		font-size: 35px;
+	}
+
+	.info__zag{
+		font-size: 35px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.switch-btn{
+		font-size: 16px;
+	}
+
+	.comments{
+		display: none;
+	}
+
+	.subscribe__desc h4{
+		font-size: 34px;
+	}
+
+	.getInTouch__form{
+		width: 500px;
+	}
+
+	.getInTouch__form input{
+		width: 220px;
+	}
+
+	.persona-wight{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.servicesList__block{
+		justify-content: center;
+	}
+
+	.servicesItem{
+		width: 277px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.getInTouch__form{
+		width: 400px;
+	}
+
+	.getInTouch__form input{
+		width: 100%;
+		float: none;
+		margin-top: 20px;
+	}
+
+	.textarea{
+		margin: 20px 0 20px 0;
+	}
+}
+
+@media screen and (max-width: 576px){
+
+	.menu li a{
+		font-size: 12px;
+		padding: 15px;
+	}
+
+	.learnMore__block h2{
+		font-size: 24px;
+	}
+
+	.info__zag{
+		font-size: 24px;
+	}
+
+	.switch-btns{
+		flex-direction: column;
+    	align-items: center;
+	}
+
+	.info__text {
+    	width: 100%;
+	}
+
+	.ourTeam__gallery_desc p{
+		width: 55%;
+	}
+
+	.subscribe__desc h4{
+		font-size: 28px;
+	}
+
+	.getInTouch__form{
+		width: 350px;
+	}
+
+	footer p{
+		float: none;
+	}
+
+	.icons{
+		float: none;
+		margin-top: 20px
+	}
+}
+
+@media screen and (max-width: 400px){
+	.menu{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	h1 {
+    font-size: 28px;
+    text-align: center;
+	}
+
+	.menu li a {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+     padding: 0; 
+	}
+	
+	#ourTeam__bigImg_wrap{
+		width: 252px;
+    	height: 354px;
+	}
+
+	.ourTeam__gallery_desc h3{
+		font-size: 20px;
+	}
+
+	.ourTeam__gallery_desc p{
+		width: 40%;
+	}
+
+	.ourTeam__gallery_desc span{
+		font-size: 14px;
+	}
+
+	.span__wrap{
+		width: 106%;
+	}
+
+	.subscribe-form{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		align-items: center;
+		width: 100px;
+		margin: auto;
+	}
+
+	.subscribe-form input{
+		width: 250px;
+	}
+
+	.form-btn{
+		margin-left: 0;
+		margin-top: 10px;
+	}
+
+	.getInTouch__form{
+		width: 280px;
+	}
+
+	footer p{
+		font-size: 12px;
+	}
+
+}
