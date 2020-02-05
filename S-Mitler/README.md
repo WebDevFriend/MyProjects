@@ -1,6 +1,6 @@
 # S&Mitler
 
-- Сайт делался при помощи сборщика проектов [Gulp 4](https://github.com/andreyalexeich/gulp-scss-starter).
+- Сайт был сделан при помощи сборщика проектов [Gulp 4](https://github.com/andreyalexeich/gulp-scss-starter).
 Данная готовая сборка постоянно дорабатывается и улучшается ее автором [Андреем Гороховым](https://github.com/andreyalexeich/gulp-scss-starter).
 
 ## С использованием
@@ -8,7 +8,7 @@
 * ```selectize.js``` для кастомных инпутов
 * для меню, была использованна библиотека ```mmenu.js```
 * для кнопки открывающей меню, была использованна библиотека с Tasty CSS-animated hamburgers, под названием ```hamburgers.css```
-* был добавлен "онлайн консультант" при помощи jivosite
+* был добавлен "онлайн консультант" при помощи [jivosite.ru](https://www.jivosite.ru/)
 * в footer была добавленна интерактивная google map
 
 ## из особенностей
